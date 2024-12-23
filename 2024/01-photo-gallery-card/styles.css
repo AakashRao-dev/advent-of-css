@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 16px;
+  background-color: #f7f7f9;
+  font-family: 'Lato', sans-serif;
+}
+
+.header {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.header h1 {
+  font-size: clamp(1.5rem, 4vw, 7rem);
+  font-weight: 400;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.photo-gallery {
+  background-color: #eee;
+  height: calc(100vh - 18rem);
+}
